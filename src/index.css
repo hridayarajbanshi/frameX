@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.searchField{
+  display: flex;
+  margin: auto;
+  width: 50%;
+  margin-top:50px;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+}
+.imagesGrid{
+  text-align: center;
+}
+.imagesGrid h2{
+  border:2px solid black;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 10px;
+}
