@@ -10,8 +10,10 @@ const {response, isLoading, error, fetchData} =
 
 console.log(response);
   return (
+   
 
     <>
+     {console.log(import.meta.env)}
     <Navbar></Navbar>
     <Search></Search>
     <Images></Images>
